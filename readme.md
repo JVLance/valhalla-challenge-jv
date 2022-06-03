@@ -10,6 +10,7 @@ El resultado es devuelto a traves de la consola.
 ## Requerimientos
 
 - Nodejs v15.14.0 o mayor.
+- Una Api key valida de IMDB
 
 ## Instalación
 
@@ -21,10 +22,16 @@ El resultado es devuelto a traves de la consola.
 
     > cp .env.example .env
 
-3. Ejecutar los test:
+3. En dicho archivo se deben colocar las siguientes variables:
+
+    - IMDB_API_KEY: Es la API key de IMDB
+
+    - IMDB_API_URL: La url de la api de IMDB
+
+4. Ejecutar los test:
 
     > npm test 
 
-4. Finalmente, la aplicación final puede ser ejecutada con el siguiente comando:
+5. Finalmente, la aplicación final puede ser ejecutada con el siguiente comando:
 
     > npm run start
