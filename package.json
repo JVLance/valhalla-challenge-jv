@@ -1,0 +1,19 @@
+{
+  "name": "valhalla-challenge",
+  "version": "1.0.0",
+  "description": "Visor IMDB como desafío para postulación en penta financiero",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "jest"
+  },
+  "author": "Jorge Vega",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.27.2",
+    "dotenv": "^16.0.1"
+  },
+  "devDependencies": {
+    "jest": "^28.1.0"
+  }
+}
